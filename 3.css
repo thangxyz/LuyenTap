@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@300;400&family=Oswald:wght@200;300;400&display=swap');
+*{
+    margin: 0;padding: 0;
+    font-family: tahoma;
+    box-sizing: border-box;
+}   
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: white;
+    padding: 1rem 0.1%;
+    box-shadow: 0  0.1rem 1rem rgba(0, 0, 0, 0.8);
+    justify-content: space-between;
+    overflow: hidden;
+}
+header .logo{
+   display: block;
+   margin-top: 1rem;
+   /* border: .1rem solid green; */
+}
+header .logo img{
+    width: 8rem;
+    height: auto; 
+}
+header .mn{
+    display: block;
+    font-size: 4rem;
+    margin-top: 15rem;
+    margin-bottom: 12rem;
+}
+header .tk{
+    display: block;
+    font-size: 3rem;
+    cursor: pointer;
+    /* margin-top: 12rem; */
+    opacity: 0.5;
+}
+header .chu{
+    display: flex;
+    margin-left: 2.5rem;
+    font-weight: bold;
+}
+header .chu a{
+    text-decoration: none;
+}
+header .chu .VN{
+    color: red;
+}
+section{
+    background-image: url(./lankmart.jpg);
+    padding: 21.5rem 9%;
+    background-size: 100% 100%;
+    background-repeat: none ;
+}
+section H1{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 8rem;
+    margin-top: -2rem;
+}
+.mncha{
+    border: 1px solid red;
+}
+@media(max-width:1024px){
+    header{
+        position: fixed;
+        width: 1024px;
+        height: 80px;
+        display: flex;
+        border: 1px solid red;
+        
+    }
+    header .logo{
+        border: 1px solid red;
+        
+    }
+    header .logo img{
+        width: 6rem;
+        height: auto; 
+        
+    }
+}
